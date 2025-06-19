@@ -3,19 +3,20 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "contra-il6"
-version = "1.0.0"
+name = "contra_il6"
+version = "1.0.1"
 description = "A tool for predicting IL-6-inducing peptides"
 requires-python = "==3.8.*"
 dependencies = [
     "click>=8.1",
     "fair-esm==2.0.0",
-    "bio-embeddings[all] @ git+https://github.com/duongttr/bio_embeddings.git",
+    "bio-embeddings-duongttr[all]==0.2.3",
     "pyyaml>=6.0"
 ]
+readme = "README.md"
 
 [project.scripts]
-contra-il6 = "contra_il6.run:cli"  # for Click/Typer
+contra_il6 = "contra_il6.run:cli"  # for Click/Typer
 
 [tool.setuptools.packages.find]
 where = ["."]

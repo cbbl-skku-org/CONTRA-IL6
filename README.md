@@ -26,8 +26,15 @@ This project is summarized to:
 Require: **Python 3.8**
 
 ```zsh
+pip install contra-il6
+```
+
+or
+
+```zsh
 pip install -U 'contra-il6 @ git+https://github.com/duongttr/CONTRA-IL6.git'
 ```
+
 
 ### How to use
 ```
