@@ -1,3 +1,8 @@
+.conda
+.conda_infer
+data/Features
+checkpoints/final_ckpts
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

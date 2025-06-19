@@ -1,0 +1,7 @@
+--index-url https://download.pytorch.org/whl/cu121
+torch==2.4.1
+--index-url https://pypi.org/simple
+lightning==2.4.0
+scikit-learn==1.5.2
+tensorboard==2.19.0
+tensorboardX==2.6.4
