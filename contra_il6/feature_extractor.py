@@ -1,7 +1,7 @@
 import torch
 import esm
 from transformers import T5EncoderModel, T5Tokenizer
-from bio_embeddings.embed import SeqVecEmbedder
+from bio_embeddings_duongttr.embed import SeqVecEmbedder
 
 class ESM:
     def __init__(self, model_name="esm1_t34_670M_UR50S", device="cpu"):

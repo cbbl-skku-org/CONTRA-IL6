@@ -50,7 +50,7 @@ Options:
 
 Example:
 ```zsh
-contra-il6 -i data/Validate_positive.txt -o data/Validate_positive_result.csv
+contra_il6 -i data/Validate_positive.txt -o data/Validate_positive_result.csv
 ```
 
 ## Training
