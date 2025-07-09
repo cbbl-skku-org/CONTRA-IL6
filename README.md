@@ -1,4 +1,4 @@
-<h1 align="center">🎮 CONTRA-IL6 🎮</h1>
+<h1 align="center">🎮 CONTRA-IL6 ✈️💨</h1>
 <p align="center"><a href="">📝 Paper</a> | <a href="https://1drv.ms/f/c/fa72f5f3c0e55162/EqrXX1Jbr7dIhKGKn8iSHRQB9KWFc-IxyGX-oJpX2ZEq9A?e=yZsxe7">🚩 Model & Dataset</a></p>
 
 The official implementation of paper: **CONTRA-IL6**
@@ -68,7 +68,7 @@ python -m pip install -r requirements.txt
 ```
 
 ### Preparing datasets
-You can check the raw dataset inside [`data`](./data) folder. Or you can download 12 extracted features mentioned in paper at this [🔗 link](https://1drv.ms/f/c/fa72f5f3c0e55162/EqrXX1Jbr7dIhKGKn8iSHRQB9KWFc-IxyGX-oJpX2ZEq9A?e=yZsxe7) and extract to [`data`](./data) folder.
+You can check the **benchmark and external test datasets** inside [`data`](./data) folder. Or you can download 12 extracted features mentioned in paper at this [🔗 link](https://1drv.ms/f/c/fa72f5f3c0e55162/EqrXX1Jbr7dIhKGKn8iSHRQB9KWFc-IxyGX-oJpX2ZEq9A?e=yZsxe7) and extract to [`data`](./data) folder.
 
 ### Training models
 To reconstruct the checkpoints, you can run following commands:
